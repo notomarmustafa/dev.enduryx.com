@@ -178,21 +178,14 @@ main {
     border-radius: 2px;
 }
 
+.card-single div:last-child span,
 .card-single div:last-child i {
     font-size: 3rem;
     color: var(--main-color);
 }
 
+.card-single div:first-child span,
 .card-single div:first-child i {
-    color: var(--text-grey);
-}
-
-.card-single div:last-child span {
-    font-size: 3rem;
-    color: var(--main-color);
-}
-
-.card-single div:first-child span {
     color: var(--text-grey);
 }
 
@@ -200,18 +193,10 @@ main {
     background: var(--main-color);
 }
 
+.card-single:last-child h1,
+.card-single:last-child div:first-child i,
+.card-single:last-child div:last-child span,
+.card-single:last-child div:first-child span,
 .card-single:last-child div:last-child i {
-    color: #fff;
-}
-
-.card-single:last-child div:first-child i {
-    color: #fff;
-}
-
-.card-single:last-child div:last-child span {
-    color: #fff;
-}
-
-.card-single:last-child div:first-child span {
     color: #fff;
 }
