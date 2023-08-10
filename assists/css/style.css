@@ -69,3 +69,31 @@ body {
 .sidebar.close {
     width: 60px;
 }
+
+.sidebar .logo {
+    font-size: 24px;
+    font-weight: 700;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    color: var(--primary);
+    z-index: 500;
+    padding-bottom: 20px;
+    box-sizing: content-box;
+}
+
+.sidebar .logo .logo-name {
+    color: var(--dark);
+}
+
+.sidebar .logo .bx {
+    min-width: 60px;
+    display: flex;
+    justify-content: center;
+    font-size: 2.2rem;
+}
+
+.sidebar .side-menu {
+    width: 100%;
+    margin-top: 48px;
+}
