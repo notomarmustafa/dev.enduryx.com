@@ -178,6 +178,40 @@ main {
     border-radius: 2px;
 }
 
-.card-single h1 + small {
+.card-single div:last-child i {
+    font-size: 3rem;
+    color: var(--main-color);
+}
+
+.card-single div:first-child i {
     color: var(--text-grey);
+}
+
+.card-single div:last-child span {
+    font-size: 3rem;
+    color: var(--main-color);
+}
+
+.card-single div:first-child span {
+    color: var(--text-grey);
+}
+
+.card-single:last-child {
+    background: var(--main-color);
+}
+
+.card-single:last-child div:last-child i {
+    color: #fff;
+}
+
+.card-single:last-child div:first-child i {
+    color: #fff;
+}
+
+.card-single:last-child div:last-child span {
+    color: #fff;
+}
+
+.card-single:last-child div:first-child span {
+    color: #fff;
 }
