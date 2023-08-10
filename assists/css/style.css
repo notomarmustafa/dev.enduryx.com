@@ -95,10 +95,10 @@ body {
 
 .sidebar .side-menu {
     width: 100%;
-    margin-top: 48px;
+    margin-bottom: 48px;
 }
 
-.sidebar .side-menu li {
+.sidebar .side-menu li{
     height: 48px;
     background: transparent;
     margin-left: 6px;
