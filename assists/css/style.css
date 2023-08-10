@@ -3,13 +3,14 @@
 :root {
     --light: #f6f6f9;
     --primary: #1976D2;
-    --grey: #CFE8FF;
-    --dark-grey: #eee;
-    --dark: #AAAAAA;
-    --danger: #363949;
-    --light-danger: #D32F2F;
-    --warning: #FECDD3;
-    --light-warning: #FBC02D;
+    --light-primary: #CFE8FF;
+    --grey: #eee;
+    --dark-grey: #AAAAAA;
+    --dark: #363949;
+    --danger: #D32F2F;
+    --light-danger: #FECDD3;
+    --warning: #FBC02D;
+    --light-warning: #FFF2c6;
     --success: #388E3C;
     --light-success: #BBF7D0;
 }
@@ -35,4 +36,36 @@ li {
 
 html {
     overflow-x: hidden;
+}
+
+body.dark {
+    --light: #181a1e;
+    --grey: #25252c;
+    --dark: #fbfbfb;
+}
+
+body {
+    background: var(--grey);
+    overflow-x: hidden;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: var(--light);
+    width: 230px;
+    height: 100%;
+    z-index: 2000;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    transition: all 0.3s ease;
+}
+
+.sidebar::-webkit-scrollbar {
+    display: none;
+}
+
+.sidebar.close {
+    width: 60px;
 }
