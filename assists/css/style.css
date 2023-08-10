@@ -1,1 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@800&family=Roboto&display=swap');
+
+:root {
+    --light: #f6f6f9;
+    --primary: #1976D2;
+    --grey: #CFE8FF;
+    --dark-grey: #eee;
+    --dark: #AAAAAA;
+    --danger: #363949;
+    --light-danger: #D32F2F;
+    --warning: #FECDD3;
+    --light-warning: #FBC02D;
+    --success: #388E3C;
+    --light-success: #BBF7D0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bx {
+    font-size: 1.7rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+html {
+    overflow-x: hidden;
+}
