@@ -88,6 +88,8 @@
 }
 
 #nav-toggle:checked + .sidebar .sidebar-brand h2 i:last-child,
+#nav-toggle:checked + .sidebar .sidebar-brand h2 span:last-child,
+#nav-toggle:checked + .sidebar li a span:last-child,
 #nav-toggle:checked + .sidebar li a i:last-child {
     display: none;
 }
