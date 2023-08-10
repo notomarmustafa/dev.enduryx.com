@@ -213,8 +213,7 @@ main {
     border-radius: 5px;
 }
 
-.card-header,
-.card-body {
+.card-header {
     padding: 1rem;
 }
 
@@ -222,6 +221,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid #f0f0f0;
 }
 
 .card-header button {
@@ -230,8 +230,24 @@ main {
     color: #fff;
     font-size: .8rem;
     padding: .5rem 1rem;
+    border: 1px solid var(--main-color);
 }
 
 table {
     border-collapse: collapse;
+}
+
+thead tr {
+    border-top: 1px solid #f0f0f0;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+thead td {
+    font-weight: 700;
+}
+
+td {
+    padding: .5rem 1rem;
+    font-size: .9rem;
+    color: #222;
 }
