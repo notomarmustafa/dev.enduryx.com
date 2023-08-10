@@ -200,3 +200,7 @@ main {
 .card-single:last-child div:last-child i {
     color: #fff;
 }
+
+table {
+    border-collapse: collapse;
+}
