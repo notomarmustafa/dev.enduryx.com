@@ -201,6 +201,37 @@ main {
     color: #fff;
 }
 
+.recent-grid {
+    margin-top: 3.5rem;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 67% auto;
+}
+
+.card {
+    background: #fff;
+    border-radius: 5px;
+}
+
+.card-header,
+.card-body {
+    padding: 1rem;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-header button {
+    background: var(--main-color);
+    border-radius: 10px;
+    color: #fff;
+    font-size: .8rem;
+    padding: .5rem 1rem;
+}
+
 table {
     border-collapse: collapse;
 }
